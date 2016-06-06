@@ -2,11 +2,11 @@
 ; Download or copy/paste this script to scraper.ahk
 ; Run it (just double klick scraper.ahk)
 
-; F3 - Bottle Filling. Place mouse pointer over bottles you want to fill and press F3 to start (F8 to stop)
-; F4 - Ammo Dismanteling. Place mouse pointer over ammo you want to dismantle and press F4 to start (F8 to stop)
+; F3 - Bottle Filling. Place mouse pointer over bottles you want to fill and press F3 to start (Esc or F8 to stop)
+; F4 - Ammo Dismanteling. Place mouse pointer over ammo you want to dismantle and press F4 to start (Esc or F8 to stop)
 ; F5 - Auto scraping if you have crowbars in all 3 slots
 ; F6 - Auto scraping if you have weapon in slot 1 (crowbar in slot 2 and 3)
-; F7 - Auto scraping if you have only one crowbar no matter in which slot or general autoclicking
+; F7 - Auto scraping if you have only one crowbar no matter in which slot, just regular autoclicking
 
 ; F8 or Esc - stops all above
 

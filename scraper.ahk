@@ -4,9 +4,10 @@
 
 ; F3 - Bottle Filling. Place mouse pointer over bottles you want to fill and press F3 to start (F8 to stop)
 ; F4 - Ammo Dismanteling. Place mouse pointer over ammo you want to dismantle and press F4 to start (F8 to stop)
-; F5 - Auto scraping if you have crowbars in Slots: 1,2,3
-; F6 - Auto scraping if you have crowbars in Slots: 2,3
-; F7 - Auto scraping if you have one crowbar only no matter in which slot / general autoclicking also usefull for picking scraps from the ground
+; F5 - Auto scraping if you have crowbars in all 3 slots
+; F6 - Auto scraping if you have weapon in slot 1 (crowbar in slot 2 and 3)
+; F7 - Auto scraping if you have only one crowbar only no matter in which slot 
+;		or general autoclicking also usefull for picking scraps from the ground
 
 ; F8 - stops all above
 

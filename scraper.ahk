@@ -8,7 +8,7 @@
 ; F6 - Auto scraping if you have weapon in slot 1 (crowbar in slot 2 and 3)
 ; F7 - Auto scraping if you have only one crowbar no matter in which slot or general autoclicking
 
-; F8 - stops all above
+; F8 or Esc - stops all above
 
 #SingleInstance
 #IfWinActive H1Z1
@@ -83,5 +83,9 @@ Return
 Return
 
 ~*F8::
+	toggle := 0
+Return
+
+~*Esc::
 	toggle := 0
 Return

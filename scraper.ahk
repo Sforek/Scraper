@@ -4,9 +4,9 @@
 
 ; F3 - Bottle Filling. Place mouse pointer over bottles you want to fill and press F3 to start (Esc or F8 to stop)
 ; F4 - Ammo Dismanteling. Place mouse pointer over ammo you want to dismantle and press F4 to start (Esc or F8 to stop)
-; F5 - Auto scraping if you have crowbars in all 3 slots
-; F6 - Auto scraping if you have weapon in slot 1 (crowbar in slot 2 and 3)
-; F7 - Auto scraping if you have only one crowbar no matter in which slot, just regular autoclicking
+; F5 - Auto scraping if you have crowbars in all 3 slots - automaticaly switches wearing crobars for legitimate scraping
+; F6 - Auto crowbar glitching - crowbar in slot 1. Just stand next to a wreck and press F6 to start (Esc or F8 to stop) 
+; F7 - Legitimate scraping, just regular autoclicking with one crowbar.
 
 ; F8 or Esc - stops all above
 
@@ -61,12 +61,15 @@ Return
 
 ~*F6::
 	toggle := 1
+	Send 1
+	Sleep 1000
+	Send x
+	Sleep 50
+	Send 2
+	Sleep 1000
+	Send x
+	Sleep 250
 	While toggle{
-		Random, rand, 1, crowbarSwitchingFactor
-		if (rand = 1) {
-			Send 3
-			Sleep 50
-		}
 		SetMouseDelay 30
 		Click
 		Sleep sleepDelayScraping
